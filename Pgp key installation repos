@@ -1,0 +1,10 @@
+On cmd
+ebs -key-gen --expires 2022-07-31(date)
+Select options
+a. Put 2(for RSA key)
+b.1048/2048(key strength) as per need
+Name_07312022_RSA<email ID>
+ebs --key-list"Name_07312022_RSA<email ID>"
+ebs --key-export pgpkeyname --armor
+pgp --key-detail KeyID
+ebs --key-list KeyID
